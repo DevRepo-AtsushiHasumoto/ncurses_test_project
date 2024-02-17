@@ -16,6 +16,7 @@ int main()
     refresh();
 
     sleep(3);
+    
 #endif
     endwin();
 
