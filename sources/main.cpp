@@ -11,12 +11,12 @@ int main()
     noecho();
     cbreak();
     nodelay(stdscr, TRUE);
-
+#ifdef __DEBUG__
     mvaddstr(0, 0, "\\(^o^)/");
     refresh();
 
     sleep(3);
-
+#endif
     endwin();
 
     return 0;
